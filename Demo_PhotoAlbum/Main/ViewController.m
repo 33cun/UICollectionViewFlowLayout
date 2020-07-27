@@ -17,6 +17,8 @@
 @property (nonatomic, strong) UITableView *tb;
 @property (nonatomic, copy) NSArray<NSDictionary *> *dataSource;
 
+@property (nonatomic, copy) NSArray *aa;
+
 @end
 
 
@@ -49,6 +51,9 @@
         }, @{
             @"name" : @"自定义 CV 2",
             @"className" : @"XXCustomCVVC2",
+        }, @{
+            @"name" : @"自定义 CV + FlowLayout",
+            @"className" : @"XXCustomCVC3",
         }
     ];
 }

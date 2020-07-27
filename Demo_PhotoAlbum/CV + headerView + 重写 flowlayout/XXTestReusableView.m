@@ -23,4 +23,14 @@
     
 }
 
+- (UICollectionViewLayoutAttributes *)preferredLayoutAttributesFittingAttributes:(UICollectionViewLayoutAttributes *)layoutAttributes {
+    UICollectionViewLayoutAttributes *att = [super preferredLayoutAttributesFittingAttributes:layoutAttributes];
+    
+    if ([self.delegate respondsToSelector:@selector(testReusableView:att:)]) {
+        [self.delegate testReusableView:self att:att];
+    }
+    
+    return att;
+}
+
 @end

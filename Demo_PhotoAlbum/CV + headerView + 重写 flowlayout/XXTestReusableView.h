@@ -10,7 +10,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class XXTestReusableView;
+@protocol XXTestReusableViewDelegate <NSObject>
+
+@optional
+- (void)testReusableView:(XXTestReusableView *)view att:(UICollectionViewLayoutAttributes *)att;
+
+@end
+
+
 @interface XXTestReusableView : UICollectionReusableView
+
+@property (nonatomic, weak) id<XXTestReusableViewDelegate> delegate;
 
 @end
 

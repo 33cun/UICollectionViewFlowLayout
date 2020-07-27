@@ -17,6 +17,9 @@
 		A5068AE224BE0B3D008F6DDD /* XXPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5068AE124BE0B3D008F6DDD /* XXPhotoCell.m */; };
 		A5068AE524BE1081008F6DDD /* photoAlbumData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5068AE424BE1081008F6DDD /* photoAlbumData.json */; };
 		A5068AE824BE1165008F6DDD /* XXPhotoAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5068AE724BE1165008F6DDD /* XXPhotoAlbumModel.m */; };
+		A53A95C424CE69DE003C0509 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A95C324CE69DE003C0509 /* WaterFlowLayout.m */; };
+		A53A95C724CEA33F003C0509 /* XXCustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A95C624CEA33F003C0509 /* XXCustomFlowLayout.m */; };
+		A53A95CB24CEA6EA003C0509 /* XXCustomCVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = A53A95CA24CEA6EA003C0509 /* XXCustomCVC3.m */; };
 		A53AEF4524BE18DB006B4011 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AEF4324BE18DB006B4011 /* YYFPSLabel.m */; };
 		A53AEF4A24BE1F32006B4011 /* XXTBCVVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AEF4924BE1F32006B4011 /* XXTBCVVC.m */; };
 		A53AEF4E24BE1FF5006B4011 /* XXCustomCVVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AEF4D24BE1FF5006B4011 /* XXCustomCVVC.m */; };
@@ -26,6 +29,7 @@
 		A53AEF5B24BF529B006B4011 /* XXCustomCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AEF5A24BF529B006B4011 /* XXCustomCollectionViewFlowLayout.m */; };
 		A53AEF5E24BF5F0C006B4011 /* XXTestReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AEF5D24BF5F0C006B4011 /* XXTestReusableView.m */; };
 		A53AEF6124BF62EB006B4011 /* UIView+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AEF5F24BF62EA006B4011 /* UIView+Awesome.m */; };
+		A586946024C152C2009FD71E /* XXTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A586945F24C152C2009FD71E /* XXTools.m */; };
 		B068DC25509437F9C184F3CD /* Pods_Demo_PhotoAlbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D263813769F4DE0D580E914E /* Pods_Demo_PhotoAlbum.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +53,12 @@
 		A5068AE424BE1081008F6DDD /* photoAlbumData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photoAlbumData.json; sourceTree = "<group>"; };
 		A5068AE624BE1165008F6DDD /* XXPhotoAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXPhotoAlbumModel.h; sourceTree = "<group>"; };
 		A5068AE724BE1165008F6DDD /* XXPhotoAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXPhotoAlbumModel.m; sourceTree = "<group>"; };
+		A53A95C224CE69DE003C0509 /* WaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		A53A95C324CE69DE003C0509 /* WaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		A53A95C524CEA33F003C0509 /* XXCustomFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXCustomFlowLayout.h; sourceTree = "<group>"; };
+		A53A95C624CEA33F003C0509 /* XXCustomFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXCustomFlowLayout.m; sourceTree = "<group>"; };
+		A53A95C924CEA6EA003C0509 /* XXCustomCVC3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXCustomCVC3.h; sourceTree = "<group>"; };
+		A53A95CA24CEA6EA003C0509 /* XXCustomCVC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXCustomCVC3.m; sourceTree = "<group>"; };
 		A53AEF4324BE18DB006B4011 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		A53AEF4424BE18DB006B4011 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		A53AEF4824BE1F32006B4011 /* XXTBCVVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXTBCVVC.h; sourceTree = "<group>"; };
@@ -67,6 +77,8 @@
 		A53AEF5D24BF5F0C006B4011 /* XXTestReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTestReusableView.m; sourceTree = "<group>"; };
 		A53AEF5F24BF62EA006B4011 /* UIView+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Awesome.m"; sourceTree = "<group>"; };
 		A53AEF6024BF62EB006B4011 /* UIView+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Awesome.h"; sourceTree = "<group>"; };
+		A586945E24C152C2009FD71E /* XXTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXTools.h; sourceTree = "<group>"; };
+		A586945F24C152C2009FD71E /* XXTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTools.m; sourceTree = "<group>"; };
 		B7FC285037E8145BF63CD7C6 /* Pods-Demo_PhotoAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_PhotoAlbum.release.xcconfig"; path = "Target Support Files/Pods-Demo_PhotoAlbum/Pods-Demo_PhotoAlbum.release.xcconfig"; sourceTree = "<group>"; };
 		D263813769F4DE0D580E914E /* Pods_Demo_PhotoAlbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_PhotoAlbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,28 +133,74 @@
 		A5068AC324BE06A3008F6DDD /* Demo_PhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				A53A95CC24CEA6FE003C0509 /* Main */,
+				A53A95CE24CEA735003C0509 /* Data */,
+				A53A95CD24CEA717003C0509 /* Common */,
+				A53A95C824CEA6A2003C0509 /* CV + 重写 flowLayout */,
+				A53AEF5524BF2548006B4011 /* CV + headerView + 重写 flowlayout */,
+				A53AEF4B24BE1FDB006B4011 /* CV + headerView */,
+				A53AEF4724BE1EE1006B4011 /* TB 嵌套 CV */,
+				A53A95CF24CEA73E003C0509 /* Other */,
+			);
+			path = Demo_PhotoAlbum;
+			sourceTree = "<group>";
+		};
+		A53A95C824CEA6A2003C0509 /* CV + 重写 flowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A53A95C924CEA6EA003C0509 /* XXCustomCVC3.h */,
+				A53A95CA24CEA6EA003C0509 /* XXCustomCVC3.m */,
+				A53A95C524CEA33F003C0509 /* XXCustomFlowLayout.h */,
+				A53A95C624CEA33F003C0509 /* XXCustomFlowLayout.m */,
+			);
+			path = "CV + 重写 flowLayout";
+			sourceTree = "<group>";
+		};
+		A53A95CC24CEA6FE003C0509 /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				A5068AC424BE06A3008F6DDD /* AppDelegate.h */,
 				A5068AC524BE06A3008F6DDD /* AppDelegate.m */,
 				A5068AE324BE0BFC008F6DDD /* PrefixHeader.pch */,
 				A5068ACA24BE06A3008F6DDD /* ViewController.h */,
 				A5068ACB24BE06A3008F6DDD /* ViewController.m */,
-				A53AEF5524BF2548006B4011 /* CV + cell inset */,
-				A53AEF4B24BE1FDB006B4011 /* CV + headerView */,
-				A53AEF4724BE1EE1006B4011 /* TB 嵌套 CV */,
-				A5068AE624BE1165008F6DDD /* XXPhotoAlbumModel.h */,
-				A5068AE724BE1165008F6DDD /* XXPhotoAlbumModel.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A53A95CD24CEA717003C0509 /* Common */ = {
+			isa = PBXGroup;
+			children = (
 				A53AEF4424BE18DB006B4011 /* YYFPSLabel.h */,
 				A53AEF4324BE18DB006B4011 /* YYFPSLabel.m */,
-				A5068AE424BE1081008F6DDD /* photoAlbumData.json */,
 				A53AEF6024BF62EB006B4011 /* UIView+Awesome.h */,
 				A53AEF5F24BF62EA006B4011 /* UIView+Awesome.m */,
+				A586945E24C152C2009FD71E /* XXTools.h */,
+				A586945F24C152C2009FD71E /* XXTools.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A53A95CE24CEA735003C0509 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5068AE624BE1165008F6DDD /* XXPhotoAlbumModel.h */,
+				A5068AE724BE1165008F6DDD /* XXPhotoAlbumModel.m */,
+				A5068AE424BE1081008F6DDD /* photoAlbumData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A53A95CF24CEA73E003C0509 /* Other */ = {
+			isa = PBXGroup;
+			children = (
 				A5068ACD24BE06A3008F6DDD /* Main.storyboard */,
 				A5068AD024BE06A5008F6DDD /* Assets.xcassets */,
 				A5068AD224BE06A5008F6DDD /* LaunchScreen.storyboard */,
 				A5068AD524BE06A5008F6DDD /* Info.plist */,
 				A5068AD624BE06A5008F6DDD /* main.m */,
 			);
-			path = Demo_PhotoAlbum;
+			path = Other;
 			sourceTree = "<group>";
 		};
 		A53AEF4724BE1EE1006B4011 /* TB 嵌套 CV */ = {
@@ -171,7 +229,7 @@
 			path = "CV + headerView";
 			sourceTree = "<group>";
 		};
-		A53AEF5524BF2548006B4011 /* CV + cell inset */ = {
+		A53AEF5524BF2548006B4011 /* CV + headerView + 重写 flowlayout */ = {
 			isa = PBXGroup;
 			children = (
 				A53AEF5624BF256D006B4011 /* XXCustomCVVC2.h */,
@@ -180,8 +238,10 @@
 				A53AEF5D24BF5F0C006B4011 /* XXTestReusableView.m */,
 				A53AEF5924BF529B006B4011 /* XXCustomCollectionViewFlowLayout.h */,
 				A53AEF5A24BF529B006B4011 /* XXCustomCollectionViewFlowLayout.m */,
+				A53A95C224CE69DE003C0509 /* WaterFlowLayout.h */,
+				A53A95C324CE69DE003C0509 /* WaterFlowLayout.m */,
 			);
-			path = "CV + cell inset";
+			path = "CV + headerView + 重写 flowlayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,20 +380,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				A53AEF5B24BF529B006B4011 /* XXCustomCollectionViewFlowLayout.m in Sources */,
+				A53A95C424CE69DE003C0509 /* WaterFlowLayout.m in Sources */,
 				A53AEF6124BF62EB006B4011 /* UIView+Awesome.m in Sources */,
 				A53AEF4E24BE1FF5006B4011 /* XXCustomCVVC.m in Sources */,
 				A53AEF5824BF256D006B4011 /* XXCustomCVVC2.m in Sources */,
 				A5068ACC24BE06A3008F6DDD /* ViewController.m in Sources */,
+				A586946024C152C2009FD71E /* XXTools.m in Sources */,
 				A53AEF5124BE2521006B4011 /* XXAlbumHeaderReusableView.m in Sources */,
 				A5068AC624BE06A3008F6DDD /* AppDelegate.m in Sources */,
 				A53AEF4524BE18DB006B4011 /* YYFPSLabel.m in Sources */,
 				A5068ADF24BE0818008F6DDD /* XXAlbumCell.m in Sources */,
+				A53A95C724CEA33F003C0509 /* XXCustomFlowLayout.m in Sources */,
 				A5068AD724BE06A5008F6DDD /* main.m in Sources */,
 				A53AEF4A24BE1F32006B4011 /* XXTBCVVC.m in Sources */,
 				A53AEF5424BE27AF006B4011 /* XXCollectionViewLayout.m in Sources */,
 				A53AEF5E24BF5F0C006B4011 /* XXTestReusableView.m in Sources */,
 				A5068AE224BE0B3D008F6DDD /* XXPhotoCell.m in Sources */,
 				A5068AE824BE1165008F6DDD /* XXPhotoAlbumModel.m in Sources */,
+				A53A95CB24CEA6EA003C0509 /* XXCustomCVC3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,8 +540,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 388VKLBARN;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo_PhotoAlbum/PrefixHeader.pch";
-				INFOPLIST_FILE = Demo_PhotoAlbum/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo_PhotoAlbum/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = Demo_PhotoAlbum/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,8 +559,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 388VKLBARN;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo_PhotoAlbum/PrefixHeader.pch";
-				INFOPLIST_FILE = Demo_PhotoAlbum/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo_PhotoAlbum/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = Demo_PhotoAlbum/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
